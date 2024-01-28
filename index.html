@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3 Project: Building an accessible image gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header></header>
+    <main>
+
+        <section>
+            <div class="thumbnail-container" id="thumbnail-container">
+                <div class="thumbnail"></div>
+
+                <div class="screen">
+                    <!-- <img id=wallpaper class="background" alt="magnolia buds"> -->
+                    <img src="" alt="" id="display">
+                </div>
+
+                <div id="announcer" aria-live="polite" aria-atomic="true"></div>
+        </section>
+        <div class="button">
+            <button id="up">NEXT</button>
+            <button id="down">PREVIOUS</button>
+        </div>
+        <section>
+            <div>
+                <form id="form" class="form">
+                    <label>Search here</label>
+                    <input label="text" placeholders="what do you want to search" id="input" name="input"></input>
+                    <button type="submit">search</button>
+                </form>
+            </div>
+        </section>
+        <img class="background"
+            src="https://images.unsplash.com/photo-1590658125637-76c76d71d2a7?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3xiR1pSUDNpbG1wZ3x8ZW58MHx8fHx8/800/500/"
+            alt="flower buds">
+        <section>
+
+        </section>
+    </main>
+
+
+</body>
+
+</html>
